@@ -88,3 +88,13 @@ audio::-webkit-media-controls-play-button {
   background-color: #ffffff;
   border-radius: 50%;
 }
+
+@media (max-width: 768px) {
+  .info {
+    flex-direction: column;
+    gap: 30px;
+    .audio-section {
+      width: 100%;
+    }
+  }
+}

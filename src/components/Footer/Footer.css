@@ -48,3 +48,19 @@
   line-height: 18px;
   letter-spacing: 0.5%;
 }
+
+@media (max-width: 768px) {
+  .footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .content-section {
+    h1 {
+      font-size: 18px;
+    }
+    p {
+      font-size: 12px;
+    }
+  }
+}
