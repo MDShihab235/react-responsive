@@ -1,0 +1,46 @@
+.options {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 55px;
+  gap: 20px;
+}
+
+.option-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 608px;
+  height: 297px;
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  padding: 24px;
+
+  .img-title {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    > h2 {
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 36px;
+      margin: 4px;
+    }
+  }
+
+  > p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .btn-option {
+    color: #8064a2;
+    border: 1px solid #8064a2;
+    width: 122px;
+    height: 40px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    background-color: white;
+  }
+}

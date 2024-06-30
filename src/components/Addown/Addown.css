@@ -1,0 +1,41 @@
+.addown {
+  background-color: #f7fdff;
+}
+
+.add-container {
+  border: 1px solid #ced4da;
+  margin: 55px;
+  border-radius: 8px;
+  padding: 30px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  > div {
+    display: flex;
+    align-items: center;
+    h2 {
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 36px;
+      margin: 8px;
+    }
+  }
+  > p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 2%;
+  }
+  .add-btn {
+    color: #8064a2;
+    border: 1px solid #8064a2;
+    width: 122px;
+    height: 40px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    background-color: white;
+  }
+}

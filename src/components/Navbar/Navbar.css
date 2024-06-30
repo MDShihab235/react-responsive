@@ -1,0 +1,29 @@
+.search-btn {
+  background-color: #8064a2 !important;
+}
+
+.drop-down-style {
+  display: flex;
+  align-items: center;
+}
+
+#sign-in-btn {
+  width: 120px;
+  height: 40px;
+  background-color: white;
+  outline: 1px solid #8064a2;
+  color: #8064a2;
+  font-weight: 500;
+  border-radius: 10px;
+  border: none;
+}
+
+.nav-link-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid green; */
+}
+.search-container {
+  margin: 0 20px;
+}

@@ -1,0 +1,50 @@
+.footer-links {
+  display: flex;
+  justify-content: space-around;
+  gap: 150px;
+  padding: 55px;
+
+  .links {
+    > h3 {
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 18px;
+      letter-spacing: 0.5%;
+      margin-bottom: 20px;
+    }
+    > p {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 18px;
+      letter-spacing: 0.5%;
+    }
+  }
+}
+.social-icons {
+  display: flex;
+  gap: 20px;
+  img {
+    background-color: #ebedf0;
+    padding: 4px;
+    border-radius: 50%;
+  }
+}
+
+.input-btn {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.5%;
+  color: white;
+}
+.copy {
+  background-color: #f7f5f9;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.5%;
+}

@@ -1,0 +1,90 @@
+.testimonials {
+  border: 1px solid #ced4da;
+  margin: 55px;
+  border-radius: 8px;
+  padding: 30px;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  > p {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 2%;
+  }
+}
+.title {
+  display: flex;
+  gap: 16px;
+  > img {
+    width: 40px;
+    height: 40px;
+  }
+  > h2 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+  }
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+
+  .audio-section {
+    background-color: #ccc1da;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    .mic-img {
+      margin: 20px;
+      .mic {
+        position: absolute;
+        margin-top: 30px;
+        margin-right: 20px;
+      }
+    }
+  }
+  .profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    .name-pro {
+      > h2 {
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+        letter-spacing: 2%;
+        color: #8064a2;
+      }
+      > span {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        letter-spacing: 2%;
+        color: #0096c8;
+      }
+    }
+  }
+}
+
+audio {
+  width: 100%;
+  max-width: 776px;
+  height: 60px;
+  margin: 0 auto;
+}
+audio::-webkit-media-controls-panel {
+  background-color: #ccc1da;
+  color: #8064a2;
+  display: flex;
+  align-items: center;
+}
+audio::-webkit-media-controls-play-button {
+  background-color: #ffffff;
+  border-radius: 50%;
+}
